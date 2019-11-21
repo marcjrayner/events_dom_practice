@@ -28,7 +28,7 @@ const handleSubmit = function (event) {
   newTitle.textContent = `${event.target.title.value}`
   const newAuthor = document.createElement('h3')
   newAuthor.textContent = `${event.target.author.value}`
-  const newCategory = document.createElement('p')
+  const newCategory = document.createElement('h4')
   newCategory.textContent = `${event.target.category.value}`
 
 

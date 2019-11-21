@@ -2,7 +2,38 @@ body {
   font-family: Palatino;
 }
 
+#reading-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
 .booklist {
   font-family: Arial;
   color: red;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 40%;
+  height: 150px;
+  background-color: pink;
+  margin: 10px;
+  align-content: space-around;
+
+}
+
+h2 {
+  display: flex;
+  align-content: space-around;
+  margin: 10px;
+}
+h3 {
+  display: flex;
+  align-content: space-around;
+  margin: 10px;
+}
+h4 {
+  display: flex;
+  align-content: space-around;
+  margin: 10px;
 }
