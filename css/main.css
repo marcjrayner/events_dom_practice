@@ -2,7 +2,7 @@ body {
   font-family: Palatino;
 }
 
-li {
+.booklist {
   font-family: Arial;
   color: red;
 }
